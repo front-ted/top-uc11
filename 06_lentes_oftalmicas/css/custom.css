@@ -1,0 +1,101 @@
+p, li, td, figcaption{
+    font-family: roboto;
+    color: #000;
+}
+body{
+    background: #28aeb1;
+}
+h2, h3, h4, h5{color: #000;}
+h4{margin-bottom: 20px;}
+header{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.bloco1{
+    min-height: 100vh;
+    width: 80%;
+    margin: auto;
+    padding: 140px 0;
+    padding-top: 0;
+}
+.bloco-azul{
+    padding: 140px 0;
+    background: url('../img/bg1.png') no-repeat bottom center;
+}
+.bloco-amarelo{
+    background: url('../img/bg2.png') no-repeat top center #e4aa28;
+    padding: 140px 0;
+}
+.painel1{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+.painel1 button{
+    width: 287px;
+    height: 419px;
+    border: none;
+    margin-bottom: 20px;
+    transition: all .4s;
+}
+.bt-negativas{
+    background: url('../img/bt_esf_negativas.png') no-repeat bottom center;
+}
+.bt-negativas:hover{
+    background: url('../img/bt_esf_negativas_hv.png') no-repeat center bottom;
+}
+.bt-positivas{
+    background: url('../img/bt_esf_positivas.png') no-repeat bottom center;
+}
+.bt-positivas:hover{
+    background: url('../img/bt_esf_positivas_hv.png') no-repeat center bottom;
+}
+.bt-cilindricas{
+    background: url('../img/bt_cilindricas.png') no-repeat bottom center;
+}
+.bt-cilindricas:hover{
+    background: url('../img/bt_cilindricas_hv.png') no-repeat center bottom;
+}
+
+.painel2{
+    display: flex;
+    max-width: 580px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.painel2 button{
+    width: 219px;
+    height: 333px;
+    border: none;
+    margin-bottom: 20px;
+    transition: all .4s;
+}
+.bt-divergentes{background: url('../img/bt_div_conc.png') no-repeat;}
+.bt-convergentes{background: url('../img/bt_conv_convex.png') no-repeat;}
+.bt-asfericas{background: url('../img/bt_asfericas.png') no-repeat;}
+.bt-biasfericas{background: url('../img/bt_biasfericas.png') no-repeat;}
+.painel2 button:hover{
+    transform: scale(1.1);
+}
+.painel3{
+    background: url('../img/painel_oculos.png') no-repeat top center;
+    width: 600px;
+    height: 530px;
+    margin: 50px auto;
+    position: relative;
+}
+.painel3 button{
+    width: 174px;
+    height: 54px;
+    border: none;
+    margin-bottom: 20px;
+    transition: all .4s;
+    position: absolute;
+}
+.painel3 button:hover{
+    transform: scale(1.1);
+}
+.bt-monofocais{background: url('../img/bt_monofocais.png') no-repeat;}
+.bt-bifocais{background: url('../img/bt_bifocais.png') no-repeat;}
+.bt-multifocais{background: url('../img/bt_multifocais.png') no-repeat;}

@@ -1,0 +1,175 @@
+body {
+    background-image: url('../assets/10/bg.png');
+    background-attachment: fixed;
+    background-position: right;
+}
+.nav-tabs {
+    margin-left: 0;
+}
+h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.p-1 {
+    font-size: 20px;
+    margin-top: 80px;
+}
+figcaption {
+    text-align: center;
+    margin: 10px auto 20px auto;
+}
+.caixa-destaque {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+h3 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+h3:first-of-type {
+    margin-top: 20px;
+}
+h4 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.img-02 {
+    float: right;
+    height: 350px;
+    margin:20px 10px 10px 10px;
+}
+.painel-1 {
+    width: 610px;
+    height: 461px;
+    display: block;
+    margin: 10px auto;
+    background-image: url('../assets/10/painel.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.painel-1 button {
+    height: 55px;
+    width: 160px;
+    position: absolute;
+    background-color: transparent;
+}
+
+#btn-1 {
+    left: 153px;
+    top: 65px;
+    width: 145px;
+}
+#btn-2 {
+    right: 5px;
+    top: 195px;
+}
+#btn-3 {
+    bottom: 55px;
+    left: 48%;
+}
+
+.painel-2 .row{
+    display: flex;
+    justify-content: center;
+}
+.painel-2 button {
+    width: 250px;
+    height: 185px;
+    margin: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+#btn-4 {
+    background-image: url('../assets/10/bt01.png');
+}
+#btn-5 {
+    background-image: url('../assets/10/bt02.png');
+}
+#btn-6 {
+    background-image: url('../assets/10/bt03.png');
+}
+#btn-7 {
+    background-image: url('../assets/10/bt04.png');
+}
+#btn-4:hover {
+    background-image: url('../assets/10/bt01_hover.png');
+}
+#btn-5:hover {
+    background-image: url('../assets/10/bt02_hover.png');
+}
+#btn-6:hover {
+    background-image: url('../assets/10/bt03_hover.png');
+}
+#btn-7:hover {
+    background-image: url('../assets/10/bt04_hover.png');
+}
+.infografico-xs ul li {
+    list-style-image: unset;
+}
+.infografico-xs ul {
+    margin-left: 0;
+}
+.infografico-xs {
+    border: 2px solid #50d7e2;
+    padding: 5px 15px;
+    box-shadow: 1px 1px 2px #333;
+    display: none;
+}
+.painel-1-mobile {
+    text-align: center;
+    display: none;
+}
+
+.painel-1-mobile button {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #50d7e2;
+    border: none;
+    color: white;
+}
+
+
+.icone.nota{
+    background-image: url(../assets/10/icone-nota.png);
+}
+
+
+#accordion3 i{
+    font-size: 3rem;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#accordion2 a:hover {text-decoration: none;}
+#accordion2 a img{margin: -40px 0;}
+#accordion2 .panel-title{
+    margin-top: 45px;
+}
+
+
+
+@media (max-width:600px) {
+    .painel-1-mobile {display: block;}
+    .infografico-xs {
+        display: block;
+    }
+    .img-02 {
+        float: unset;
+        display: block;
+        margin: 10px auto;
+        width: 100%;
+        height: auto;
+    }
+    .painel-1 {
+        display: none;
+    }
+    .painel-2 .row {
+        flex-direction: column;
+    }
+}

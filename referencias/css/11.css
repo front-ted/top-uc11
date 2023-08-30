@@ -1,0 +1,179 @@
+body {
+    background-image: url('../assets/11/bg.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+p {
+    line-height: 1.3em;
+}
+.livro {
+    background-image: url('../assets/11/container.png');
+    width: 1201px;
+    height: 870px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 40px auto 0px auto;
+    position: relative;
+}
+.tela {
+    display: flex;
+}
+.esq {
+    width: 46%;
+    padding-left:90px;
+    padding-top: 90px;
+}
+.dir {
+    padding-left: 110px;
+    padding-top: 90px;
+    width: 47%;    
+}
+h3 {
+    color: #333;
+    font-weight: 600;
+}
+.avancar {
+    width: 121px;
+    height: 36px;
+    background-image: url('../assets/11/bt-avancar.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    position: absolute;
+    bottom: 80px;
+    right: 22%;
+}
+.retornar {
+    width: 121px;
+    height: 36px;
+    background-image: url('../assets/11/bt-retornar.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    position: absolute;
+    bottom: 80px;
+    left: 22%;
+}
+.caixa-destaque-livre {
+    background-color: transparent;
+    border: 2px solid #50d7e2;
+    border-radius: 0;
+    padding: 0px 20px;
+}
+.img-01 {
+    margin: 10px auto;
+    display: block;
+}
+.icone-importante {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.grupo-imprimir button.bto-imprimir {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    z-index: 10;
+}
+.grupo-imprimir {
+    position: relative;
+}
+.tela-1 .esq{
+    background: url('../assets/11/capaBG.png') no-repeat right top 80px;
+    min-height: 870px;
+    background-size: 84%;
+    padding-left: 110px;
+    padding-top: 135px;
+    padding-right: 30px;
+}
+@media screen and (max-width: 1250px){
+    .tela-1 .esq{
+        background-size: contain;
+        padding-top: 160px;
+        padding-left: 80px;
+        padding-right: 80px;
+        background-position: top center;
+        margin-top: 50px;
+        min-height: 1400px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    
+    .livro {
+        padding-top: 80px;
+        background-color: white;
+        background-image: none !important;
+        height: auto;
+        width: auto;
+    }
+    .tela {
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .retornar {
+        left: 15px;
+        bottom: 20px;
+    }
+    .avancar {
+        right: 15px;
+        bottom: 20px;
+    }
+    .esq, .dir {
+        width: 100%;
+        padding: 15px;
+    }
+    figure img  {
+        display: block;
+        margin: 10px auto;
+        max-width: 100%;
+    }
+    .img-01 {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:1090px){
+    .tela-1 .esq{
+        min-height: 1300px;
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+}
+
+.icone.nota{
+    background-image: url(../assets/11/icone-nf.png);
+}
+
+@media screen and (max-width: 992px){
+    body{
+        background: none;
+    }
+    .grupo-imprimir{
+        position: absolute;
+        right: 0;
+        top: 30px;
+        width: 100%;
+        
+    }
+    .grupo-imprimir button.bto-imprimir{
+        left: initial;
+        right: 0px;
+    }
+}
+@media screen and (max-width: 480px){
+    .tela-1 .esq{
+        padding: 50px;
+        margin-top: 50px;
+        min-height: 580px;
+    }
+}

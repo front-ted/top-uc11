@@ -1,0 +1,101 @@
+p, li, td, figcaption{
+    font-family: roboto;
+    color: #000;
+}
+body{
+    background: url('../img/bg_esquerdo.svg') no-repeat, url('../img/bg_direito.svg') no-repeat, url('../img/bg.svg') no-repeat;
+    background-attachment: fixed, unset, unset;
+    background-size: 10%, 10%, cover;
+    background-position: left center, right center, bottom center;
+    background-color: #b9e1ed;
+}
+header{margin-top: 100px;}
+h2, h3, h4, h5{color: #000;}
+.bloco{
+    background: url('../img/bg_slide.svg') no-repeat center center;
+    min-height: 1250px;
+    max-width: 1200px;
+    background-size: 100% 100%;
+    margin: auto;
+    padding: 150px;
+    position: relative;
+    left: 0;
+    margin-top: 30px;
+}
+.botoes{
+    position: absolute;
+    bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.botoes a{
+    width: 160px;
+    display: block;
+    background: #0b3b4b;
+    color: #fff;
+    padding: 10px;
+    font-family: roboto;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+    transition: all .4s;
+}
+.botoes a:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.pagina1 .bt-retornar, .pagina8 .bt-avancar{visibility: hidden;}
+.pagina4 .bloco{
+    background: url('../img/bg_slide_bloco4.svg') no-repeat center center;
+}
+.pagina4 .bloco h2, .pagina4 .bloco p{color: #fff;}
+.prisma{max-width: 50%;}
+footer{display: none;}
+.destaque-info{
+    background: #e9c942;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.destaque-info p{
+    margin: 0;
+}
+.bt-tooltip{
+    color: #000;
+}
+
+@media only screen and (max-width: 1050px) {
+ .bloco{
+    padding: 200px 100px;
+ }
+ .caixa-destaque-livre p{margin: 0;}
+}
+@media only screen and (max-width: 940px) {
+    .bloco, .pagina4 .bloco{
+        background: #fff;
+        border-radius: 30px;
+        width: 80%;
+        padding: 50px;
+        min-height: 600px;
+    }
+    .pagina4 .bloco h2, .pagina4 .bloco p{color: #000;}
+    .botoes{
+        bottom: 10px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .bloco, .pagina4 .bloco{
+        width: 90%;
+        padding: 20px;
+        min-height: unset;
+        padding-bottom: 100px;
+    }
+    .prisma{
+        max-width: 100%;
+    }
+    .destaque-info{margin-top: 20px;}
+}

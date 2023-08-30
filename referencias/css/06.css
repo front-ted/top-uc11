@@ -1,0 +1,364 @@
+body {
+    background-image: url(../assets/06/bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header.senac{
+    position: fixed;
+}
+
+#booklet {
+    margin-left: 500px;
+}
+.menu {
+    position: fixed;
+    z-index: 100;
+    border-radius: 30px;
+    border: 2px solid #50d7e2;
+    top: 85px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    transition-duration: .4s;
+    max-height: Calc(100vh - 100px);
+  
+}
+.menu-link {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu-link:hover{
+    box-shadow: 0 0 0 5px #50d7e2;
+}
+
+.menu-link.ativo {
+    background-color: #50d7e2;
+    color: white !important;
+}
+.caixa-destaque {
+    box-shadow: 2px 2px 3px #333;
+}
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.nav-tabs {
+    margin-left: 0;
+}
+.tab-content {
+    padding-top: 25px;
+}
+.img-01 {
+    float: left;
+    height: 150px;
+    margin: 15px;
+    margin-top: -15px;
+}
+.img-02 {
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+.painel-1 {
+    width: 610px;
+    height: 451px;
+    background-image: url('../assets/06/fig14.png');
+    display: block;
+    margin: 15px auto;
+    position: relative;
+}
+.painel-1 button {
+    position: absolute;
+    box-shadow: 2px 2px 3px #333;
+    border: 2px solid #333;
+    background-color: transparent;
+}
+.painel-1 button:hover {
+    background-color: rgba(56, 191, 197, .5);
+}
+#btn-1 {
+    width: 80px;
+    top: 62px;
+    left: 120px;
+    height: 40px;
+
+}
+#btn-2 {
+    width: 120px;
+    right: 108px;
+    top: 62px;
+    height: 40px;
+
+}
+#btn-3 {
+    width: 92px;
+    bottom: 145px;
+    left: 114px;
+    height: 40px;
+
+}
+#btn-4 {
+    width: 110px;
+    right: 112px;
+    bottom: 145px;
+    height: 40px;
+
+}
+.carousel-inner .item {
+    padding-bottom: 50px;
+}
+.carousel-caption {
+    background-color: rgba(33, 33, 33, .7);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.carousel-inner {
+    min-height: 411px;
+}
+.fig18 {
+    max-height: 400px;
+}
+span.menu-hamburger {
+    opacity: 0;
+    transition: 1s;
+    /*background: #007798;*/
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+}
+.caixa-exercicio {
+    display: block;
+    width: 80%;
+    margin: 15px auto;
+    border: 2px solid #50d7e2;
+    padding: 30px;
+    text-align: center;
+}
+.caixa-exercicio p {
+    margin: 0;
+}
+.caixinha {
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+}
+.btn-gab {
+    padding: 10px 40px;
+    border: 3px solid #50d7e2;
+    font-size: 18px;
+    background-color: transparent;
+    box-shadow: 1px 1px 2px #333;
+    display: block;
+    margin: 10px auto 25px auto;
+}
+.btn-gab:hover {
+    transform: translateY(-3px);
+    background-color: #50d7e230;
+}
+.resposta {
+    /* display: none; */
+    background-color: rgba(80, 215, 226, .6);
+    border-radius: 15px;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+
+
+.menu-mob{
+    position: fixed;
+    z-index: 100;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    max-width: 320px;
+    background-color: whitesmoke;
+    padding-top:20px;
+    padding-bottom: 0px;
+    border-radius: 0 10px 10px 0;
+    margin-top: 10px;
+    box-shadow: 2px 4px 0 2px rgba(0, 0, 0, .2);
+    transition: 200ms ease-in;
+    max-height: 80vh;    
+   
+}
+.menu-mob ul{
+    padding-left: 0;
+    margin-right: 10px;
+    height: Calc(80vh - 150px);   
+    overflow-y: auto;  
+}
+.menu-mob li {
+    list-style: none;
+    padding:0;
+    margin: 6px 0;
+}
+.menu-mob li a{
+    padding: 0;    
+    line-height: 1.1;
+    display: block;
+    padding: 5px;  
+    margin-right: 20px;
+    border-radius: 4px;
+}
+.menu-mob li a:hover,
+.menu-mob li a.ativo{
+    background-color: #50d7e2;
+    color: white !important;
+    text-decoration: none;
+}
+.menu-mob #btCloseMenuMob,
+.menu-mob #btOpenMenuMob{
+    position: absolute;
+    right: -40px;
+    top:10px; 
+    border: 0; 
+    font-size: 2.2rem; 
+    box-shadow: 2px 1px 0 2px rgba(0, 0, 0, .2);
+    border-radius: 2px;
+}
+
+.menu-mob.closed{
+    left: -320px;
+}
+
+.menu-mob h3{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+.painel1-mobile button{
+    background-color: transparent;
+    margin: 5px auto;
+    border: 0;
+}
+
+
+
+@media (max-width: 1510px) {
+
+    #booklet {
+        margin-left: 420px;
+    }
+}
+
+@media (max-width: 1430px) {
+    #booklet {
+        margin-left: 365px;
+    }
+    .menu {
+        left: 10px;
+    }
+}
+
+@media (max-width:1370px) {
+    #booklet {
+        margin-left: 350px;
+    }
+
+    .menu-link{
+        line-height: 1.1;
+        margin-bottom: 4px;
+        font-size: 1.4rem;
+    }
+
+    .menu-mob {
+        max-height: 90vh;
+    }
+    .menu-mob ul{
+        height: Calc(90vh - 150px);
+    }
+    .menu-mob h3{
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 1338px) {
+    span.menu-hamburger {
+        opacity: 1;
+        position: fixed;
+        left: 0px;
+        transition: 1s;
+        z-index: 99;
+        background: none;
+        top: 10px;
+    }
+    .menu {
+        opacity: 0;
+    }
+    #booklet {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 992px){
+
+
+
+    .menu-mob{
+        max-width: 320px;
+        top: 5px;     
+        max-height: 80vh;  
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    #nome-curso{
+        margin-left: 10%;
+    }
+
+    .menu-mob{
+       
+        max-height: 95vh;     
+       
+    }
+    .menu-mob ul{
+        height:Calc(100vh - 150px);
+    }
+   
+
+    #booklet {
+        margin-left: auto;
+    }
+    .menu {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 95%;
+        height: 90%;
+        top: 5px;
+        border-radius: 0;
+        display: none;
+    }
+    .menu-link {
+        margin-bottom: 8px;
+    }
+    span.menu-hamburger {
+        top: unset;
+        bottom: 0;
+        right: 0;
+        left: unset;
+    }
+}
+
+.icone.pratica{
+    background-image: url(../assets/06/icone_na_pratica.png);
+}

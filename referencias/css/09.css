@@ -1,0 +1,160 @@
+body {
+    background-image: url('../assets/09/bg.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.btn-container button {
+    width: 250px;
+    height: 185px;
+    border: none;
+    background-color: transparent;
+}
+#btn-1 {
+    background-image: url('../assets/09/bt01.png');
+}
+#btn-2 {
+    background-image: url('../assets/09/bt02.png');
+}
+#btn-3 {
+    background-image: url('../assets/09/bt03.png');
+}
+#btn-1:hover{
+    background-image: url('../assets/09/bt01_hover.png');
+}
+#btn-2:hover{
+    background-image: url('../assets/09/bt02_hover.png');
+}
+#btn-3:hover{
+    background-image: url('../assets/09/bt03_hover.png');
+}
+.btn-olhos {
+    background-color: #00b0b3;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 22px;
+    padding: 20px 10px;
+    width: 225px;
+    margin: 7px 15px;
+    border: none;
+}
+.btn-olhos:hover {
+    background-color: #00b0b350;
+}
+.painel-btns .row {
+    display: flex;
+    justify-content: center;
+}
+.painel-estrabismos {
+    width: 100%;
+    max-width: 601px;
+    display: block;
+    margin: 10px auto;
+}
+.painel-estrabismos .painel-img {
+    width: 100%;
+    min-height: 201px;
+    background-image: url('../assets/09/painel01.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+}
+.bloco-inicial {
+    height: 100vh;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-intro {
+    width: 450px;
+}
+.texto-intro h2 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #00b0b3;
+}
+.btn-iniciar {
+    background-color: #f5ca2e;
+    width: 160px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 35px;
+    border: none;
+    margin-top: 15px;
+}
+.btn-iniciar:hover {
+    transform: translateY(-3px);
+}
+#booklet {
+    padding-top: 40px;
+}
+
+
+.icone.nota{
+    background-image: url(../assets/08/icone-nota.png);
+}
+
+@media (max-width: 900px) {
+    .bloco-inicial {
+         flex-direction: column-reverse;
+    }
+    .btn-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .btn-container button {
+        margin: 15px;
+    }
+    .painel-btns .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-intro{
+        width: 100%;
+        max-width: 300px;
+        margin-top: 60px;
+    }
+
+    .texto-intro{
+        width: 100%;
+    }
+
+    .texto-intro h2{
+        font-size: 2.2rem;  
+        
+    }
+    .btn-iniciar{
+        margin: 10px auto;
+        display: block;
+    }
+    .bloco-inicial {
+        height: 100vh;
+        padding-top: 200px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        padding: 20px;
+    }
+
+    .bto-imprimir{
+        margin-bottom: 40px;
+    } 
+    
+}

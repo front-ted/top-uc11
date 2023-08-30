@@ -1,0 +1,361 @@
+<!--
+Nome do material: Testes de acuidade visual
+Diferentão: não
+Modelo: Template Paginado
+-->
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
+    xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- As 3 metatags acima *precisam* vir primeiro na head; qualquer outro conteúdo deve vir *depois* destas tags -->
+
+    <title>Prescrição óptica: interpretação e índices de refração em lentes oftálmicas</title>
+
+    <!-- Bootstrap -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/tecnicos_senac.css" rel="stylesheet">
+    <link href="../assets/css/cores.css" rel="stylesheet">
+    <link href="../assets/css/sncload.css" rel="stylesheet">
+    <link href="../assets/css/magnific-popup.css" rel="stylesheet">
+    <!-- referência ao arquivo css com estilos especificos da página -->
+    <!--<link href="custom.css" type="text/css" rel="stylesheet"> -->
+    <!-- css necessario para o print -->
+    <link href="../assets/css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="../assets/css/print.css" type="text/css" rel="stylesheet">
+    <link href="css/custom.css" type="text/css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+                <script src="../assets/js/html5shiv.min.js"></script>
+                <script src="../assets/js/respond.min.js"></script>
+        <![endif]-->
+    <!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Douglas Brochado Machado</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">49492000.0000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Douglas Brochado Machado</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+    <body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
+        <!-- MARCA D´ÁGUA -->
+        <img src="../assets/images/logo_senac_colorido.png" id="marcadaguaLogo">
+        <!-- /MARCA D´ÁGUA -->
+        <div id='sncloader' class='over-loader'>
+            <div class="over-cell">
+                <div id="sncload"></div>
+            </div>
+        </div>
+        <header id="topo" class="senac no-print">
+            <div class="header-tecnicos container">
+                <h1 id="nome-curso">Óptica</h1>
+                <div id="logo-senac">
+                    <img src="../assets/images/logo-senac.png" alt="logo do senac">
+                </div>
+            </div>
+            <div id="sombra"></div>
+        </header>
+        <div id="booklet">
+            <header class="no-print container">
+                <!-- BTO IMPRIMIR -->
+                <div class="grupo-imprimir no-print">
+                    <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+                        <span class="fa fa-print"></span>
+                        <span>Imprimir</span>
+                    </button>
+                </div>
+                <!-- /BTO IMPRIMIR -->
+            </header>
+            <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+            <section class="paginas">
+                <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+                <div class="pagina pagina1">
+                    <div class="bloco">
+                        <h2>Prescrição óptica: interpretação e índices de refração em lentes oftálmicas</h2>
+                        <p>Em uma confecção de laudo técnico, é de grande importância o perito saber interpretar a receita prescrita pelo especialista, pois será com base nela que os óculos ou as lentes de contato serão conferidos na necessidade de um laudo técnico para dioptrias, verificando assim suas possíveis discordâncias.</p>
+                        <p>Neste material, você compreenderá os campos da prescrição em seus respectivos campos e a origem dos valores de índices de refração das lentes a serem indicadas e acompanhará exemplos de seus possíveis resultados no cotidiano da óptica.</p>
+                        <div class="botoes no-print">
+                            <a href="index.html?page=1" class="bt-retornar" aria-hidden="true">RETORNAR</a>
+                            <a href="index.html?page=2" class="bt-avancar">AVANÇAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagina">
+                    <div class="bloco">
+                        <h3>Interpretação da prescrição</h3>
+                        <p>A Rx (receita do especialista) segue um padrão reconhecido mundialmente:</p>
+                        <div class="table-responsive">
+                            <table class="senac">
+                                <thead>
+                                    <th colspan="2"></th>
+                                    <th><button type="button" class="bt-tooltip" data-toggle="tooltip" data-placement="top" title="ESFÉRICO: dioptria correspondente à hipermetropia, miopia e presbiopia.">ESF</button></th>
+                                    <th><button type="button" class="bt-tooltip" data-toggle="tooltip" data-placement="top" title="CILÍNDRICO: dioptria correspondente ao astigmatismo.">CIL</button></th>
+                                    <th><button type="button" class="bt-tooltip" data-toggle="tooltip" data-placement="top" title="EIXO: determina a localização do astigmatismo.">EIXO</button></th>
+                                    <th><button type="button" class="bt-tooltip" data-toggle="tooltip" data-placement="top" title="DP: distância pupilar, espaço entre uma pupila e outra. Essa medida servirá para que as pupilas estejam alinhadas ao centro óptico da lente dos óculos e será examinada pelo técnico em óptica no momento da venda dos óculos.">DP</button></th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><b>Longe</b></td>
+                                        <td><button type="button" class="bt-tooltip" data-toggle="tooltip" data-placement="top" title="OD: olho direito"><b>OD</b></button></td>
+                                        <td>-1,00</td>
+                                        <td>-0,50</td>
+                                        <td>180</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><button type="button" class="bt-tooltip" data-toggle="tooltip" data-placement="top" title="OE: olho esquerdo"><b>OE</b></button></td>
+                                        <td>-1,50</td>
+                                        <td>-0,25</td>
+                                        <td>90</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><p>Perto</p></td>
+                                        <td><button type="button" class="bt-tooltip" data-toggle="tooltip" data-placement="top" title="OD: olho direito"><b>OD</b></button></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><button type="button" class="bt-tooltip" data-toggle="tooltip" data-placement="top" title="OE: olho esquerdo"><b>OE</b></button></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="6"><button type="button" class="bt-tooltip" data-toggle="tooltip" data-placement="top" title="Observações: este campo serve para acrescentar observações se o cliente necessitar de lentes ou tratamentos específicos ou apresentar algum outro problema que justifique a observação."><b>Observações:</b></button> lentes com proteção UV.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="legenda-imagem">
+                            Tabela 1 – Prescrição do especialista<br>
+                            Fonte: Senac EAD (2023)
+                        </p>
+                        <div class="only-print" aria-hidden="true">
+                            <p><b>OD</b>: olho direito; </p>
+                            <p><b>OE</b>: olho esquerdo.</p>
+                            <p><b>ESFÉRICO</b>: dioptria correspondente à hipermetropia, miopia e presbiopia.</p>
+                            <p><b>CILÍNDRICO</b>: dioptria correspondente ao astigmatismo.</p>
+                            <p><b>EIXO</b>: determina a localização do astigmatismo.</p>
+                            <p><b>DP</b>: distância pupilar, espaço entre uma pupila e outra. Essa medida servirá para que as pupilas estejam alinhadas ao centro óptico da lente dos óculos e será examinada pelo técnico em óptica no momento da venda dos óculos.</p>
+                            <p><b>Observações</b>: este campo serve para acrescentar observações se o cliente necessitar de lentes ou tratamentos específicos ou apresentar algum outro problema que justifique a observação.                            </p>
+                        </div>
+                        <div class="botoes no-print">
+                            <a href="index.html?page=1" class="bt-retornar">RETORNAR</a>
+                            <a href="index.html?page=3" class="bt-avancar">AVANÇAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagina">
+                    <div class="bloco">
+                        <p>Quando o cliente se queixa de qualquer desconforto quanto ao uso dos óculos ou das lentes de contato, deve-se confrontar o produto com a prescrição.</p>
+                        <p>Qualquer uma dessas queixas, quando não solucionadas pela óptica, podem dar origem à solicitação de um laudo técnico, em que o perito realizará o confronto entre o produto e a prescrição e documentará conforme foi solicitado.</p>
+                        <p>Algumas vezes são tomadas todas as medidas devidas com precisão, porém a prescrição pode ter algum equívoco, e isso trará o resultado de um laudo com as conformidades ópticas corretas, então o cliente terá de consultar seu especialista novamente para a retificação do erro prescrito.</p>
+                        <div class="botoes no-print">
+                            <a href="index.html?page=2" class="bt-retornar">RETORNAR</a>
+                            <a href="index.html?page=4" class="bt-avancar">AVANÇAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagina pagina4">
+                    <div class="bloco">
+                        <h2>Índices de refração em lentes oftálmicas</h2>
+                        <p>Sabe-se que a refração é o fenômeno que acontece em meios transparentes (refringentes), em que ocorre uma mudança de velocidade dos raios luminosos ao atravessarem de um meio mais refringente para um meio menos refringente.</p>
+                        <p>Toda lente oftálmica terá um valor que representa o seu índice de refração que influenciará no peso, na espessura e nas curvaturas das lentes. Quanto maior for o índice de refração, mais fina ficará a lente e com curvaturas mais planas, ou seja, para qualquer prescrição de óculos, uma lente feita de um material com um índice de refração elevado será mais fina do que uma lente feita de um material com um índice de refração inferior. O peso dependerá do material empregado para a fabricação.</p>
+                        <img src="img/img_prisma.svg" class="img-responsive center-block prisma no-print">
+                        <div class="botoes no-print">
+                            <a href="index.html?page=3" class="bt-retornar">RETORNAR</a>
+                            <a href="index.html?page=5" class="bt-avancar">AVANÇAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagina">
+                    <div class="bloco">
+                        <h3>Calculando o índice de refração</h3>
+                        <p>O índice de refração próprio de cada material é descoberto por meio de um cálculo que você acompanhará a seguir.</p>
+                        <p>Mede-se o índice de refração (n), dividindo o valor da velocidade da luz de um meio para outro.</p>
+                        <div class="caixa-destaque-livre">
+                            <p>Exemplo: há dois meios, o <b>A</b> e o <b>B</b></p>
+                            <p><b>n</b> = <b>A</b> velocidade da luz no ar</p>
+                            <p><b>n</b> = <b>B</b> velocidade da luz no material</p>
+                            <p>Sabe-se que a velocidade da luz no ar é de 300.000 km/h</p>
+                            <p>Supondo que a velocidade da luz no material B seja 200.000 km/h</p>
+                            <p><b>n</b> = 300.000/200.000 = 1.500</p>
+                            <p>Você terá uma lente com índice de refração igual a 1.500.</p>
+                        </div>
+                        <div class="botoes no-print">
+                            <a href="index.html?page=4" class="bt-retornar">RETORNAR</a>
+                            <a href="index.html?page=6" class="bt-avancar">AVANÇAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagina">
+                    <div class="bloco">
+                        <p>Esse exemplo é utilizado para entender a origem do índice de refração próprio dos materiais. No cotidiano de trabalho, não se faz necessário esse tipo de cálculo, pois existem tabelas impressas com os dados de índices de refração respectivos de cada material, disponibilizadas pelos fabricantes de lentes oftálmicas, incluindo, muitas vezes, as dioptrias indicadas para fabricação.</p>
+                        <div class="table-responsive">
+                            <table class="senac">
+                                <thead>
+                                    <th>ÍNDICE DE REFRAÇÃO</th>
+                                    <th>LENTE</th>
+                                    <th>DIOPTRIA</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1.49</td>
+                                        <td>Resina</td>
+                                        <td>Até + ou - 1.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1.56</td>
+                                        <td>Resina</td>
+                                        <td>De + ou - 1.25 até + ou - 2.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1.59</td>
+                                        <td>Policarbonato</td>
+                                        <td>De + ou - 2.25 até + ou - 3.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1.61</td>
+                                        <td>Resina alto índice</td>
+                                        <td>De + ou - 3.25 até + ou - 4.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1.67</td>
+                                        <td>Resina alto índice</td>
+                                        <td>De + ou - 4.25 até + ou - 6.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1.74</td>
+                                        <td>Resina alto índice</td>
+                                        <td>De + ou - 6.25 até + ou - 10.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1.70/1.80/1.90</td>
+                                        <td><i>High light</i></td>
+                                        <td>Acima de + ou - 10.25</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3"><small>* tabela sugestiva</small></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="legenda-imagem">
+                            Figura 1 – Tabela de índice de refração<br>
+                            Fonte: adaptado de Silva (2022)
+                        </p>
+                        <div class="botoes no-print">
+                            <a href="index.html?page=5" class="bt-retornar">RETORNAR</a>
+                            <a href="index.html?page=7" class="bt-avancar">AVANÇAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagina">
+                    <div class="bloco">
+                        <div class="row">
+                            <div class="col-lg-9 col-sm-9">
+                                <p>Veja, a seguir, alguns exemplos de queixas que podem surgir quando novos óculos são confeccionados e as lentes apresentam índice de refração diferente dos óculos anteriores.</p>
+                            </div>
+                            <div class="col-lg-3 col-sm-3">
+                              <img src="img/img_oculos.svg" class="img-responsive center-block no-print" aria-hidden="true">
+                            </div>
+                        </div>
+                        <div class="destaque-info">
+                            <p><b>Exemplo 1</b></p>
+                            <p>Um usuário de óculos que costumava fazer uso de lentes de resina (orgânicas) resolve trocar por lentes de cristal, acreditando que são mais finas e transparentes.</p>
+                            <p>Resultado: queixa de lentes mais pesadas.</p>
+                        </div>
+                        <div class="destaque-info">
+                            <p><b>Exemplo 2</b></p>
+                            <p>Um usuário utilizava lentes com índice de refração maior e optou por lentes com índice de refração menor, solicitando que fossem adaptadas na mesma armação.</p>
+                            <p>Resultado: as bordas das lentes ficaram mais espessas que as anteriores.</p>
+                        </div>
+                        <div class="destaque-info">
+                            <p><b>Exemplo 3</b></p>
+                            <p>Cliente fazia uso, por bastante tempo, de um menor índice de refração e mudou para um maior.</p>
+                            <p>Resultado: as imagens não lhe parecem nítidas, em razão das alterações na curva base da lente, que fica mais plana, diferente da curva base das lentes que ele usava.</p>
+                        </div>
+                        <div class="botoes no-print">
+                            <a href="index.html?page=6" class="bt-retornar">RETORNAR</a>
+                            <a href="index.html?page=8" class="bt-avancar">AVANÇAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagina pagina8">
+                    <div class="bloco">
+                        <p>Em todos os três casos, é possível solicitar a confecção de um laudo técnico no laboratório, no qual o perito verificará que as lentes correspondem ao que foi solicitado pela óptica e se limitará a isso, pois o ideal seria, no momento da venda, ter esclarecido ao cliente as diferenças sobre os materiais e suas propriedades, a fim de evitar problemas de adaptação.</p>
+                        <p>A evolução tecnológica tem ampliado cada vez mais a gama de materiais disponíveis para a fabricação de lentes. A indicação do material dependerá da prescrição óptica que acompanha a interpretação, e caberá ao perito saber identificar a lente e seu perspectivo índice de refração na elaboração do laudo, avaliando a situação, a fim de identificar a provável causa da não adaptação do usuário ao novo índice de refração.</p>
+                        <div class="botoes no-print">
+                            <a href="index.html?page=7" class="bt-retornar">RETORNAR</a>
+                            <a href="index.html?page=8" class="bt-avancar" aria-hidden="true">AVANÇAR</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+            <footer class="text-center no-print">
+                <ul class="pagination">
+                </ul>
+            </footer>
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+        <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="../assets/js/print.js" id="printjs"></script>
+        <script src="../assets/js/template.config.js"></script>
+        <script src="../assets/js/images.loader.js"></script>
+        <script src="js/custom.js"></script>
+        <noscript>
+            <style media="screen">
+                .over-loader {
+                    display: none;
+                }
+            </style>
+        </noscript>
+        <script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            })
+        </script>
+        <script>
+            var scriptElem=document.createElement("script");
+            scriptElem.src="https://plugin.handtalk.me/web/latest/handtalk.min.js",
+            scriptElem.charset="UTF-8",
+            scriptElem.onload=function(){
+                window.ht = new HT({
+                    token:"bf5b7efb148a829a126a0e0c9fd533bf",
+                    align:"top",
+                    videoEnabled: true,
+                    ytEmbedReplace: true,           
+                    mobileConfig:{align:"right",
+                                    actionsAlign:"top",
+                                    customButtonStyle:{
+                                        borderRadius:"6px",
+                                        size:"38px",
+                                        horizontalMargin:"13px",
+                                        bottomMargin:"140px",
+                                        rightMargin:"40px"}
+                                    }
+                    });        
+                $('.ht-skip').attr("aria-hidden","true")
+            },
+            document.body.appendChild(scriptElem);
+        </script>
+    </body>
+
+</html>

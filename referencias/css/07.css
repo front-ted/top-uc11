@@ -1,0 +1,239 @@
+body {
+    background-image: url('../assets/07/bg08.jpg');
+    background-attachment: fixed;
+}
+figcaption {
+    margin: 10px auto 20px auto;
+    text-align: center;
+}
+h3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.m-w {
+    max-height: 350px;
+    border-radius: 15px;
+}
+.img-02 {
+    margin: 15px;
+    float: left;
+    max-width: 220px;
+    border-radius: 5px;
+}
+.img-01 {
+    margin: 15px;
+    float: left;
+    max-width: 220px;
+    border-radius: 5px; 
+}
+.game-body {
+    background-color: #27aeb1;
+    display: block;
+    width: 600px;
+    padding: 30px;
+    border-radius: 25px;
+}
+.ui-droppable, .ui-draggable {
+    height: 121px;
+    width: 121px;
+    margin: 30px 10px;
+    position: relative;
+    border-radius: 101px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#slots .row, .game-itens-container {
+    display: flex;
+    justify-content: center;
+}
+#slot-1 {
+    background-image: url('../assets/07/icone1.png');
+    background-size: contain;
+}
+#slot-1::after{
+    content: "Rosto quadrado";
+    font-weight: bold;
+    display: block;
+    margin-top: 102%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 1px dashed rgba(255, 255, 255, .2);
+}
+#slot-2 {
+    background-image: url('../assets/07/icone2.png');
+    background-size: contain;
+}
+#slot-2::after{
+    content: "Rosto triangular";
+    font-weight: bold;
+    display: block;
+    margin-top: 102%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 1px dashed rgba(255, 255, 255, .2);
+}
+#slot-3 {
+    background-image: url('../assets/07/icone3.png');
+    background-size: contain;
+}
+#slot-3::after{
+    content: "Rosto redondo";
+    font-weight: bold;
+    display: block;
+    margin-top: 102%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 1px dashed rgba(255, 255, 255, .2);
+}
+#slot-4 {
+    background-image: url('../assets/07/icone4.png');
+    background-size: contain;
+}
+#slot-4::after{
+    content: "Rosto oval";
+    font-weight: bold;
+    display: block;
+    margin-top: 102%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 1px dashed rgba(255, 255, 255, .2);
+}
+#card-1 {
+    background-image: url('../assets/07/icone1_.png');
+    background-size: contain;
+}
+#card-1::after{
+    content: "`Redondo";
+    font-weight: bold;
+    display: block;
+    margin-top: 104%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 1px dashed rgba(255, 255, 255, .2);
+}
+#card-2 {
+    background-image: url('../assets/07/icone2_.png');
+    background-size: contain;
+}
+
+#card-2::after{
+    content: "Piloto";
+    font-weight: bold;
+    display: block;
+    margin-top: 104%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 1px dashed rgba(255, 255, 255, .2);
+}
+
+#card-3 {
+    background-image: url('../assets/07/icone3_.png');
+    background-size: contain;
+}
+
+#card-3::after{
+    content: "Retangular";
+    font-weight: bold;
+    display: block;
+    margin-top: 104%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 1px dashed rgba(255, 255, 255, .2);
+}
+#card-4 {
+    background-image: url('../assets/07/icone4_.png');
+    background-size: contain;
+}
+
+
+#card-4::after{
+    content: "Gatinho";
+    font-weight: bold;
+    display: block;
+    margin-top: 104%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 1px dashed rgba(255, 255, 255, .2);
+}
+
+.correct::before {
+    content: '';
+    height: 120px;
+    width: 120px;
+    background-color: rgba(65, 255, 65, .5);
+    border-radius: 100px;
+    position: absolute;
+    left: -3px
+}
+.errado::before {
+    content: '';
+    height: 120px;
+    width: 120px;
+    background-color: rgba(255, 65, 65, .5);
+    border-radius: 100px;
+    position: absolute;
+    left: -3px
+}
+.ui-draggable-dragging {
+    box-shadow: 2px 2px 3px #333;
+}
+.img-responsive {
+    max-width: 600px;
+}
+.infografico {
+    max-width: 901px;
+    background-color: #36ac55;
+}
+.infografico-img img {
+    width: 100%;
+    max-width: 901px;
+}
+.infografico ul {
+    color: white;
+    padding: 15px 20px;
+}
+.infografico ul li {
+    list-style-image: unset;
+    margin-bottom: 5px;
+}
+.game-body p {
+    color: white;
+}
+
+.gaitinha {
+    margin-bottom: 40px;
+}
+
+.icone.nota{
+    background-image: url(../assets/07/icone-nota.png);
+}
+
+@media (max-width: 600px) {
+    .img-responsive {
+        max-width: 100%;
+    }
+    .game-body {
+        display: none;
+    }
+    .img-01 {
+        float: unset;
+        margin: 10px auto;
+        display: block;
+    }
+}

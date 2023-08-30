@@ -1,0 +1,55 @@
+@font-face {
+    font-family: permanent-marker;
+    src: url('../font/PermanentMarker-Regular.ttf');
+}
+p, li, td, figcaption{
+    font-family: roboto;
+    color: #000;
+}
+body{
+    background: #28aeb1;
+}
+h2, h3, h4, h5{color: #000;}
+h4{margin-bottom: 20px;}
+header{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.bloco1{
+    min-height: 100vh;
+    width: 80%;
+    margin: auto;
+    padding: 140px 0;
+    padding-top: 0;
+}
+.bloco-caderno .container{
+    background: url('../img/bg.svg') repeat-y;
+    background-size: 100%;
+    padding: 50px;
+    padding-left: 230px;
+    max-width: 1200px;
+}
+.caixa-destaque-livre{
+    background: rgba(228,170,40,.5);
+    border-radius: 0;
+}
+.caixa-destaque-livre p{margin: 0;}
+.painel1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.painel1 button{
+    width: 374px;
+    height: 86px;
+    border: none;
+    transition: all .4s;
+}
+.bt-convergentes{background: url('../img/bt_convergente.png') no-repeat center;}
+.bt-divergentes{background: url('../img/bt_divergente.png') no-repeat center;}
+.bt-convergentes:hover{background: url('../img/bt_convergente_hv.png') no-repeat;}
+.bt-divergentes:hover{background: url('../img/bt_divergente_hv.png') no-repeat;}
+p.fonte{
+    font-family: permanent-marker;
+    margin-top: 20px;
+}
