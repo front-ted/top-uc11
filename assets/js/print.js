@@ -103,7 +103,7 @@
     HTMLstring+='<button class="btn btn-primary" data-click="fontSize" data-value="1">Médio</button> ';
     HTMLstring+='<button class="btn btn-primary" data-click="fontSize" data-value="2">Grande</button></span> ';
     HTMLstring+='</div>\n';
-    HTMLstring+='<img src="images/logo_senac_colorido.png" id="marcadaguaLogo">\n';
+    HTMLstring+='<img src="../assets/images/logo_senac_colorido.png" id="marcadaguaLogo">\n';
     HTMLstring+='\n';
     HTMLstring+='<div id="booklet" class="fundo-tecnicos">\n';
     HTMLstring+='<h1>' + $("#nome-curso").text() + '</h1>\n';
