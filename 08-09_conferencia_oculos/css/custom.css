@@ -13,7 +13,6 @@ h2, h3, h4, h5{color: #000;}
     background-attachment: fixed;
 }
 .fundo-tecnicos{
-    /*background: rgb(80,215,226);*/
     background: linear-gradient(to right, #6cb2cb -10%, #c8e7f2 90%,  #6cb2cb);
     border: none;
     max-width: 1024px;
