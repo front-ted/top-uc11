@@ -17,12 +17,37 @@ header{
     margin-bottom: 50px;
 }
 .bloco1{
+    background: url('../img/bg1.svg') no-repeat center center;
+    background-size: 100%;
     min-height: 100vh;
     width: 80%;
     margin: auto;
     padding: 140px 0;
     padding-top: 0;
+    position: relative;
 }
+.titulo{
+    max-width: 600px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.bt-iniciar{
+    background: url('../img/bt_iniciar.png') no-repeat;
+    width: 181px;
+    height: 76px;
+    position: absolute;
+    left: 0;
+    right:0;
+    bottom: 20vh;
+    margin: auto;
+    display: block;
+    transition: all .4s;
+}
+.bt-iniciar:hover{background: url('../img/bt_iniciar_hv.png') no-repeat;}
 .bloco-caderno .container{
     background: url('../img/bg.svg') repeat-y;
     background-size: 100%;
@@ -66,20 +91,17 @@ ul.marcador li{
 .icone-atencao{ 
     min-height: 80px;
 }
-.bt-iniciar{
-    background: url('../img/bt_iniciar.png') no-repeat;
-    width: 181px;
-    height: 76px;
-    margin: 70px auto;
-    display: block;
-    transition: all .4s;
-}
-.bt-iniciar:hover{background: url('../img/bt_iniciar_hv.png') no-repeat;}
+
 
 @media screen and (max-width: 980px){
     .bloco-caderno .container{padding-left: 145px;}
+    .bloco1{
+        background: none;
+        width: 90%;
+    }
 }
 @media screen and (max-width: 580px){
+    .titulo{max-width: 98%;}
     .bloco-caderno .container{
         padding: 20px;
         padding-left: 70px;
