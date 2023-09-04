@@ -1,0 +1,90 @@
+p, li, td, figcaption{
+    font-family: roboto;
+    color: #000;
+}
+body{
+    background: #0b3b4b;
+}
+h2, h3, h4, h5{color: #000;}
+.fundo-tecnicos{
+    background: none;
+    border: none;
+    max-width: 1024px;
+}
+header{
+    margin-top: 100px;
+}
+.bloco-transp, .bloco-azul{
+    padding: 60px 0;
+}
+.bloco-transp h2, .bloco-transp p, .bloco-transp h4, .bloco-transp li{
+    color: #fff;
+}
+.parallax{
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.parallax1{
+    background-image: url('../img/img1.png');
+}
+.bloco-azul{
+    background: #50cdd8;
+}
+.sol{
+    background: url('../img/sol_card.png') no-repeat top center;
+    padding-top: 240px;
+}
+.card{padding-top: 30px;}
+.card p{margin: 0;}
+.card p b{    
+    font-size: 22px;
+}
+.card img{margin-top: 20px;}
+.parallax2{
+    background-image: url('../img/img2.png');
+}
+.parallax3{
+    background-image: url('../img/img3.png');
+}
+.bloco-transp .caixa-destaque-livre{background: #50cdd8;}
+.bloco-azul .caixa-destaque-livre{background: #0b3b4b;}
+.bloco-azul .caixa-destaque-livre *{color: #fff;}
+.caixa-destaque-livre{
+    border: 3px solid #fff;
+    border-radius: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.caixa-destaque-livre p{margin: 0;}
+.caixa-destaque-livre.icone-importante{
+    padding-left: 100px;
+}
+.parallax4{
+    background-image: url('../img/img4.png');
+}
+.parallax5{
+    background-image: url('../img/img5.png');
+}
+ul{
+    margin-bottom: 0;
+    margin-left: 0;
+}
+ul li{list-style-image: none;}
+ul li:last-child{margin-bottom: 0;}
+.parallax6{
+    background-image: url('../img/img6.png');
+}
+.infografico{margin: 50px auto;}
+
+@media screen and (max-width: 980px){
+    .parallax{
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 580px){
+    .parallax{
+        height: 100px;
+    }
+}
