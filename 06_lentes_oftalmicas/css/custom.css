@@ -81,9 +81,12 @@ header{
 .painel3{
     background: url('../img/painel_oculos.png') no-repeat top center;
     width: 600px;
-    height: 530px;
+    height: 430px;
     margin: 50px auto;
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 .painel3 button{
     width: 174px;
@@ -91,7 +94,6 @@ header{
     border: none;
     margin-bottom: 20px;
     transition: all .4s;
-    position: absolute;
 }
 .painel3 button:hover{
     transform: scale(1.1);
