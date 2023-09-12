@@ -48,9 +48,15 @@ header{
     transition: all .4s;
 }
 .bt-iniciar:hover{background: url('../img/bt_iniciar_hv.png') no-repeat;}
-.bloco-caderno .container{
-    background: url('../img/bg.svg') repeat-y;
+.bloco-caderno{
+    background: url('../img/bg.png') repeat-y;
     background-size: 100%;
+    background-position-x: 30px;
+    background-color: #50CDD8;
+}
+.bloco-caderno .container{
+    /* background: url('../img/bg.png') repeat-y;
+    background-size: 100%; */
     padding: 50px;
     padding-left: 230px;
     max-width: 1200px;
@@ -93,7 +99,18 @@ ul.marcador li{
 }
 
 
+@media screen and (max-width: 1400px){
+    .bloco-caderno .container{
+        /* background: url('../img/bg.png') repeat-y;
+        background-size: 100%; */
+        max-width: 900px;
+    }
+}
 @media screen and (max-width: 980px){
+    .bloco-caderno{
+        background-size: 115%;
+        background-position-x: -63px;
+    }
     .bloco-caderno .container{padding-left: 145px;}
     .bloco1{
         background: none;
@@ -101,6 +118,9 @@ ul.marcador li{
     }
 }
 @media screen and (max-width: 580px){
+    .bloco-caderno{
+        background-size: 122%;
+    }
     .titulo{max-width: 98%;}
     .bloco-caderno .container{
         padding: 20px;
@@ -112,5 +132,10 @@ ul.marcador li{
         background-size: cover;
         background-position: center center;
         margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 480px){
+    .bloco-caderno{
+        background-size: 127%;
     }
 }

@@ -407,7 +407,7 @@ Para utilizar com botoes, colocar o nome do icone primeiro
 .icone-atencao{
 	padding-left:100px;
 	background-position:10px center;
-	background-size:80px 80px;
+	background-size:54px 47px;
 	background-image:url(../images/atencao.png);
 	background-repeat:no-repeat;
 }

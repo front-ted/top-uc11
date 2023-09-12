@@ -22,10 +22,13 @@ header{
     padding: 140px 0;
     background: url('../img/bg1.png') no-repeat bottom center;
 }
+/* .bloco-amarelo .container{background-color: #e0a946;} */
+
 .bloco-amarelo{
     background: url('../img/bg2.png') no-repeat top center #e4aa28;
     padding: 140px 0;
 }
+.bloco-amarelo .container{background-color: #e0a946;}
 .painel1{
     display: flex;
     justify-content: space-around;

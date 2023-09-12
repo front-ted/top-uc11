@@ -29,6 +29,18 @@ body{
     351px 320px, 
     auto;
 }
+.pagina{
+    background-color: #ffe1a9;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.icone-atencao {
+    padding-left: 100px;
+    background-position: 10px center;
+    background-size: 54px 47px;
+    background-image: url(../../01_avaliacao_integridade/img/aviso.png);
+    background-repeat: no-repeat;
+}
 h2, h3, h4, h5{color: #000;}
 .fundo-tecnicos{
     border: none;
@@ -61,7 +73,9 @@ h2, h3, h4, h5{color: #000;}
     transition: all .4s;
     bottom: -60px;
     top: unset;
-    right: 40%;
+    right: -60px;
+    left: 0;
+    margin: 0 auto;
 }
 .carousel-control.right:hover{
     background: url('../img/bt_infog_laudo_hv.png') no-repeat;
@@ -73,7 +87,9 @@ h2, h3, h4, h5{color: #000;}
     transition: all .4s;
     bottom: -60px;
     top: unset;
-    left: 40%;
+    left: -60px;
+    right: 0;
+    margin: 0 auto;
 }
 .carousel-control.left:hover{
     background: url('../img/bt2_infog_laudo_hv.svg') no-repeat;

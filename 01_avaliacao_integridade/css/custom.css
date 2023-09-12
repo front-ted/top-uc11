@@ -19,6 +19,15 @@ h2, h3, h4, h5{color: #000;}
     border: none;
     max-width: 1024px;
 }
+#carousel-example-generic .item.active {
+    /* background-image: url(../img/moldura_slideshow.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px #333;
+    margin-right: 4px;
+    padding: 0px 10px;
+}
 .oculos-flex{
     display: flex;
     flex-wrap: nowrap;

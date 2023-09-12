@@ -9,7 +9,7 @@
 */
 /* ESTRUTURA PARA ELEMENTOS RELACIONADOS AOS BOTÕES E AJUDA DA IMPRESSÃO */
 #marcadaguaLogo { display: none !important; }
-
+.break { page-break-before: always; }
 .grupo-imprimir {
     display: block;
     text-align: right;
